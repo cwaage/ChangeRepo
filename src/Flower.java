@@ -1,7 +1,9 @@
 public class Flower {
 
-    public Flower(){
+    String color;
 
+    public Flower(String color){
+        this.color = color;
     }
 
 }
