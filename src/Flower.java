@@ -5,15 +5,15 @@ public class Flower {
     boolean isRed;
     String mike;
     String suz;
-    int i;
+    int j;
     Flower neighbor;
 
     public Flower(String color, int num, int i){
         this.num = num;
         this.color = color;
         this.isRed = false;
-        this.i = i;
-        neighbor = new Flower("Green", 2, 2);
+        this.j = i;
+        neighbor = new Flower("Purplish", 2, 2);
     }
 
     public String toString(){
