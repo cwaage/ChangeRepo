@@ -2,13 +2,12 @@ public class Flower {
 
     String color;
     int num;
-    boolean isPerennial;
+    boolean isRed;
 
     public Flower(String color, int num){
         this.num = num;
         this.color = color;
-        this.isPerennial = false;
-        
+        this.isRed = false;
     }
 
     public String toString(){
