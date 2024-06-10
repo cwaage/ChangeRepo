@@ -5,6 +5,7 @@ public class Flower {
     boolean isRed;
     String mike;
     String suz;
+    char c;
     int j;
     Flower neighbor;
 
@@ -14,6 +15,7 @@ public class Flower {
         this.isRed = false;
         this.j = i;
         neighbor = new Flower("Purplish", 2, 2);
+        c = 'c';
     }
 
     public String toString(){
