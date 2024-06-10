@@ -7,7 +7,7 @@ public class Flower {
     public Flower(String color, int num){
         this.num = num;
         this.color = color;
-        isPerennial = false;
+        this.isPerennial = false;
         
     }
 
