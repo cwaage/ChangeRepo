@@ -3,7 +3,7 @@ public class Flower {
     String color;
     int num;
     boolean isRed;
-    String dude;
+    String mike;
 
     public Flower(String color, int num){
         this.num = num;
